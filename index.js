@@ -26,7 +26,7 @@ app.use('/api/', limiter);
 // CORS configuration
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://your-production-url.com'] 
+    ? ['https://your-client-railway-app.railway.app'] 
     : ['http://localhost:3000'],
   credentials: true
 }));
