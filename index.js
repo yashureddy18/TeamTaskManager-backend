@@ -27,8 +27,7 @@ app.use('/api/', limiter);
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
     ? [
-        'https://your-client-railway-app.railway.app',
-        'https://your-vercel-app.vercel.app'
+        'https://team-task-manager-frontend.vercel.app'
       ] 
     : ['http://localhost:3000'],
   credentials: true
